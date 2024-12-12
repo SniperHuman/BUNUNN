@@ -10,11 +10,11 @@ header img{
 }
 
 
-
+body{text-align: left;}
 
 
 #home_img{
-    width:400px;
+    width:350px;
     margin:auto;
     display:block;
     margin-top: 2rem;
@@ -35,17 +35,29 @@ header img{
     margin:auto;
     display:block;
     margin-top: 2rem;
-    padding: 1rem 3rem 1rem 3rem;
-    margin-left:4rem;
+    padding: 0rem;
+    margin-left:1rem;
 }
 
 .imgs{
-    width:400px;
+    width:350px;
     margin:auto;
     display:block;
     margin-top: 2rem;
-    padding: 1rem 3rem 1rem 3rem;
 }
+#map{
+    width:90%;
+    margin:auto;
+    display:block;
+    margin-top: 2rem;
+}
+
+.icons{
+    width: 4rem;
+    margin: auto;
+    
+}
+
 table {
     margin: auto;
     border-collapse: collapse;

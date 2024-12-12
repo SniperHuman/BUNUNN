@@ -14,22 +14,22 @@
     
 <body>
     <header>
-        <img src='../img/img1.jpg' alt="">
-
         <div id = "btns">
-            <button id = home_btn class = btn>ホーム</button>
-            <button id = content_btn class = btn>特徴・内容</button>
-            <button id = course_btn class = btn>コース</button>
-            <button id = schedule_btn class = btn>スケジュール</button>
-            <button id = qa_btn class = btn>Q&A</button>
-            <button id = adress_btn class = btn>SNS</button>
+            <a href="#features"><button id = home_btn class = btn>特徴</button></a>
+            <a href="#content"><button id = content_btn class = btn>内容</button></a>
+            <a href="#course"> <button id = course_btn class = btn>コース</button></a>
+            <a href="#schedule"><button id = schedule_btn class = btn>スケジュール</button></a>
+            <a href="#QandA"><button id = qa_btn class = btn>Q&A</button></a>
+            <a href="#sns"><button id = adress_btn class = btn>SNS</button></a>
         </div>
+
+        <div id="home">
+            <img src='../img/img_index/img2.jpg' alt="" id = "home_img">
+        </div>
+
     </header>
 
     <main>
-        <div id="home">
-            <img src='../img/img2.jpg' alt="" id = "home_img">
-        </div>
 
         <div id="features" class = "division">
             <h2 class = "contents" >書道教室「文運」の特徴</h2>
@@ -44,7 +44,7 @@
                     </li>
                 </ul>
             </div>
-            <img src='../img/img2.jpg' alt="" id = "ex1_img" class = "imgs">
+            <img src='../img/img_index/img2.jpg' alt="" id = "ex1_img" class = "imgs">
 
 
             <div class = "contents">
@@ -60,7 +60,7 @@
                     </li>
                 </ul>
             </div>
-            <img src='../img/img2.jpg' alt="" id = "ex1_img" class = "imgs">
+            <img src='../img/img_index/img2.jpg' alt="" id = "ex1_img" class = "imgs">
 
         </div>
 
@@ -73,17 +73,18 @@
                 自分で考えながら一つの作品を仕上げる喜び、一本の線を引くこと、文字のつながり、紙面全体の世界観の構築まで、書で表現するための確かな力を養成します。
                 
             </div>
-            <img src='../img/img2.jpg' alt="" id = "ex1_img"class = "imgs">
+            <img src='../img/img_index/img2.jpg' alt="" id = "ex1_img"class = "imgs">
 
             <div class = "contents">
                 <h3>日常で生かせる「硬筆」</h3>
                 　冠婚葬祭・挨拶状・履歴書等、デジタル時代になっても、個性の出る手書き文字を書く場面はまだまだあります。
                 お稽古の積み重ねにより、確実に身についた力を是非、生かしてみましょう。
             </div>
-            <img src='../img/img2.jpg' alt="" id = "ex1_img"  class = "imgs">
+            <img src='../img/img_index/img2.jpg' alt="" id = "ex1_img"  class = "imgs">
         </div>
 
         <div id = "course" class = "division">
+            <h2>コース</h2>
             <div class = "contents">
                 月3回　一般コース<br>
                 （高校生以上）<br>
@@ -180,6 +181,11 @@
     </main>
 
     <footer>
+        <div class="contetns" id = "sns">
+            <a href="https://www.instagram.com/bun_un_syo?igsh=a3ZiZ3kzZ3BzaDh0&utm_source=qr"><img src="../img/img_index/instagram.jpg" alt="" class=icons></a>
+            <a href="https://lin.ee/RWjkvad"><img src="../img/img_index/line.jpg" alt="" class=icons></a>
+        </div>
+
         <div class = "contents">
             書道教室　文運<br>
             <br>
@@ -190,5 +196,9 @@
             TEL<br>
             アクセス　京王線布田駅から徒歩2分
         </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d705.6037088323797!2d139.55053308514866!3d35.649827668474934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x6018f04186c81519%3A0x4145cd411e6e9867!2z44CSMTgyLTAwMjQg5p2x5Lqs6YO96Kq_5biD5biC5biD55Sw77yT5LiB55uu77yU77yV4oiS77yTIOOCsOODqeODs-ODoeOCvuODs--8pg!3m2!1d35.649946799999995!2d139.5505583!5e0!3m2!1sja!2sjp!4v1733998327271!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id = "map"></iframe>
+        <p>&copy; 2024 書道教室　文運、TAKAHIRO KANEKO.</p>
+        
     </footer>
 </body>
